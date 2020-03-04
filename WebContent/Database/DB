@@ -1,0 +1,28 @@
+Step-1
+=---------=
+  create database Sanjay;
+  ------------------------------------------------
+  use Sanjay;
+  
+  Admin Table
+ ----------------------------
+ Step-2
+ =------=
+ create table Test(Id varchar(20), PassWord varchar(25));
+ insert into Test(Id,PassWord)values(100,"Sanjay1997");
+ 
+ ----------------------------------------------------------
+ Step-3
+ =-----=
+ select *from Test;
+ 
+ ---------------------------------------------------------------------------------------------
+ ITEM TABLE
+ ----------------
+use Sanjay;
+--------------------------
+ create table AddItem(Commidity_Name varchar(50),Price_Of_Cs varchar(50),Cs_Capacity varchar(50),Unit_Price varchar(50),Mrp_Of_Unit varchar(50));
+ insert into AddItem(Commidity_Name,Price_Of_Cs,Cs_Capacity,Unit_Price,Mrp_Of_Unit)values("FreeDom",1200,30,32, 52);
+ select *from AddItem;
+  
+--------------------------------------------------------------------------------------  
